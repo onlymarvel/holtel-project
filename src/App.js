@@ -74,7 +74,7 @@ const handleSignup = () => {
  
 
 const handleLogout = () => {
-  fire.outh().signOut();
+  fire.auth().signOut();
 };
 
 const authListener = ()=>{
